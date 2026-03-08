@@ -24,7 +24,6 @@
    git clone <url-репозитория>
    cd vk-alchemy-tests
 
-   ```markdown
 # 📱 VK Video & Alchemy Автотесты (Appium + Java)
 
 [![Java](https://img.shields.io/badge/Java-22-blue.svg)](https://www.oracle.com/java/technologies/javase-downloads.html)
@@ -159,3 +158,4 @@ src/
 | Тест VK Видео не находит видео                 | Локаторы могли устареть. Используйте **Appium Inspector** для обновления `By.xpath` в `VkVideoTest`. |
 | Appium не подключается                          | Проверьте, что сервер запущен на `127.0.0.1:4723` и эмулятор работает (`adb devices`).               |
 | Тесты зависают на рекламе                       | В коде заложены таймауты и обработка различных элементов. Если реклама уникальна, добавьте логирование и скорректируйте условия в `waitForAdCompletion()`. |
+
